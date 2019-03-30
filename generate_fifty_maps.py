@@ -32,7 +32,7 @@ import os
 if __name__ == "__main__":
     if not os.path.exists('./lvls'):
         os.mkdir('lvls')
-    for map_index in range(1, 41):
+    for map_index in range(1, 51):
         width = 12 + map_index
         height = 10 + map_index
         max_rooms = int(map_index / 5) + 1

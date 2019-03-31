@@ -385,14 +385,14 @@ class Generator():
 
     def print_colors_in_file(self, file):
         color_dict = self.return_color_dict()
-        print("#colors", file=file)
+        print("#colors", end = '\n', file=file)
         for color,color_list in color_dict.items():
             print(color, end=": ", file=file)
             for index,item in enumerate(color_list):
                 if index != len(color_list) -1 :
                     print(item, end=", ", file=file)
                 else:
-                    print(item, file=file)
+                    print(item, end = '\n', file=file)
 
 
     def input_printable_tiles(self, map, map_list):
@@ -430,19 +430,19 @@ class Generator():
         self.input_printable_tiles(self.level, self.start_printable_tiles)
         self.input_printable_tiles(self.goal_level, self.goal_printable_tiles)
 
-        print("#domain", file=file)
-        print(domain, file=file)
-        print("#filename", file=file)
-        print(filename, file=file)
+        print("#domain", end = '\n', file=file)
+        print(domain, end = '\n', file=file)
+        print("#filename", end = '\n', file=file)
+        print(filename, end = '\n',file=file)
         self.print_colors_in_file(file=file)
         if (file == None):
             [print(row) for row in self.start_printable_tiles]
         else:
-            print("#initial", file=file)
-            [print(row, file=file) for row in self.start_printable_tiles]
-            print("#goal", file=file)
-            [print(row, file=file) for row in self.goal_printable_tiles]
-            print("#end", file=file)
+            print("#initial", end = '\n', file=file)
+            [print(row, end = '\n', file=file) for row in self.start_printable_tiles]
+            print("#goal",end = '\n', file=file)
+            [print(row, end = '\n',file=file) for row in self.goal_printable_tiles]
+            print("#end", end = '\n',file=file)
 
 # if __name__ == '__main__':
 #     gen = Generator()

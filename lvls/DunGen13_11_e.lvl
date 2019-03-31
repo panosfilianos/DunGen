@@ -1,31 +1,31 @@
 #domain
 hospital
-#filename
+#levelname
 DunGen13_11_e
 #colors
-blue: 0, L, J
+orange: 0, B, Y
 #initial
              
              
              
-             
-       +++   
-      ++ +   
-      +L ++++
-      +  ++ +
-      +   0J+
-      ++  +++
-       ++++  
+        +++  
+        + +++
+        +  0+
+       ++ Y +
+       +    +
+       ++B  +
+        +++ +
+          +++
 #goal
              
              
              
-             
-       +++   
-      ++ +   
-      +  ++++
-      +  ++J+
-      +L    +
-      ++  +++
-       ++++  
+        +++  
+        + +++
+        +   +
+       ++   +
+       +B   +
+       ++ Y +
+        +++ +
+          +++
 #end

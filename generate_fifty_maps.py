@@ -58,7 +58,7 @@ if __name__ == "__main__":
         gen.gen_start_goal_maps()
         gen.gen_tiles_level()
         lvl_filename = "DunGen"+ str(width) + "_" + str(height) + "_e"
-        with open('./lvls/' + lvl_filename + '.lvl', 'w') as f:
+        with open('./lvls/' + lvl_filename + '.lvl', 'w', newline = '\n') as f:
             gen.gen_tiles_level(file= f, domain = "hospital", filename = lvl_filename)
 
         # generate hard map
@@ -78,7 +78,7 @@ if __name__ == "__main__":
         gen.gen_start_goal_maps()
         gen.gen_tiles_level()
         lvl_filename = "DunGen"+ str(width) + "_" + str(height) + "_h"
-        with open('./lvls/' + lvl_filename + '.lvl', 'w') as f:
+        with open('./lvls/' + lvl_filename + '.lvl', 'w', newline = '\n') as f:
             gen.gen_tiles_level(file= f, domain = "hospital", filename=lvl_filename)
 
 

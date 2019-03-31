@@ -1,0 +1,31 @@
+#domain
+hospital
+#filename
+DunGen13_11_h
+#colors
+lightblue: 0, H, Z
+#initial
+             
+ ++++++++++  
+ +        +  
+ + H  +++++  
+ +Z 0 +      
+ +++ ++      
+   +++       
+             
+             
+             
+             
+#goal
+             
+ ++++++++++  
+ +  H    Z+  
+ +    +++++  
+ +    +      
+ +++ ++      
+   +++       
+             
+             
+             
+             
+#end

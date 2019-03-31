@@ -1,0 +1,37 @@
+#domain
+hospital
+#filename
+DunGen16_14_e
+#colors
+pink: 0, A, D
+#initial
+                
+                
+                
+                
+            +++ 
+         ++++ ++
+        ++     +
+    +++++   A 0+
+    +      D   +
+    ++++++++++++
+                
+                
+                
+                
+#goal
+                
+                
+                
+                
+            +++ 
+         ++++ ++
+        ++     +
+    +++++      +
+    +     A   D+
+    ++++++++++++
+                
+                
+                
+                
+#end

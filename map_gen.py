@@ -432,7 +432,7 @@ class Generator():
 
         print("#domain", end = '\n', file=file)
         print(domain, end = '\n', file=file)
-        print("#filename", end = '\n', file=file)
+        print("#levelname", end = '\n', file=file)
         print(filename, end = '\n',file=file)
         self.print_colors_in_file(file=file)
         if (file == None):
